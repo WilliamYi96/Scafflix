@@ -20,3 +20,12 @@ pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-re
 
 ## Nonconvex Neural Network Generalization Experiments
 
+## Citation
+```
+@misc{scafflix,
+  author = {Kai Yi, Laurent Condat, Peter Richtarik},
+  title = {Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning},
+  year = {2023},
+  journal={arXiv preprint},
+}
+```
