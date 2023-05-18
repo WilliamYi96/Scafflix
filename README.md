@@ -40,4 +40,4 @@ The intended purpose and licensing of Scafflix is solely for research use.
 The source code is licensed under Apache 2.0.
 
 ## Contact
-For more information please contact [Kai Yi](https://kaiyi.me/), [Laurent Condat]([https://cemse.kaust.edu.sa/ece/people/person/hasan-abed-al-kader-hammoud](https://lcondat.github.io/)).
+For more information please contact [Kai Yi](https://kaiyi.me/), [Laurent Condat](https://lcondat.github.io/).
