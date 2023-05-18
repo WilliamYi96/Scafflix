@@ -17,16 +17,23 @@ pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-re
 ```
 
 ## Convex Logistic Regression Experiments
-The main directory for this set of experiments is `./convex_reg`.
+The main directory denoted as $MAIN for this set of experiments is `./convex_reg`.
 
 ### Datasets
 ```
-cd ./convex_reg/datasets/
+cd $MAIN/datasets/
 ```
 * **w6a** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a```,
 * **ijcnn1.bz2** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.bz2```,
 * **mushrooms** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/mushrooms```,
 * **a6a** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a```.
+
+### Training and Evaluation
+Please running `run_gd.py` and `run_scafflix.py` to train and evaluate. For each file, dataset from `dataset_name = 'mushrooms' ` can be chosen from the above four datasets. 
+
+After finish training and testing, the intermediate logs will be automatically saved. Running `plot.py` will generated Figure 1 in the paper. 
+
+We also provide all saved data under `$MAIN/saved_exp` and all plots under `$MAIN/plots`.
 
 ## Nonconvex Neural Network Generalization Experiments
 
