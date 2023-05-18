@@ -17,6 +17,16 @@ pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-re
 ```
 
 ## Convex Logistic Regression Experiments
+The main directory for this set of experiments is `./convex_reg`.
+
+### Datasets
+```
+cd ./convex_reg/datasets/
+```
+* **w6a** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w6a```,
+* **ijcnn1.bz2** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ijcnn1.bz2```,
+* **mushrooms** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/mushrooms```,
+* **a6a** dataset ```wget https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a6a```.
 
 ## Nonconvex Neural Network Generalization Experiments
 
