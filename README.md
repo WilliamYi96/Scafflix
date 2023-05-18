@@ -1,6 +1,6 @@
 # Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning
 
-This repository contains the code to run all experiments presented in our paper [Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning](link will be provided soon).
+This repository contains the code to run all experiments presented in our paper [Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning](link).
 
 ## Environment Setup
 ```angular2html
