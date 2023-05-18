@@ -31,8 +31,6 @@ pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-re
 ```
 
 ## Acknowledgement
-Special thanks to [FedJax](https://github.com/google/fedjax) for the implementation of FedAvg and the integrated datasets API, and [FLIX](https://github.com/google/fedjax) for sharing the implementation of FLIX. 
-
 We would like to extend our special appreciation to [FedJax](https://github.com/google/fedjax) for their exceptional implementation of FedAvg and for the incorporation of the datasets API. Furthermore, we are grateful to [FLIX](https://github.com/google/fedjax) for generously sharing their valuable FLIX implementation.
 
 ## License
