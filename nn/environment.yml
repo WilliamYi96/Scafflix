@@ -1,0 +1,54 @@
+name: scafflix
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - bokeh
+  - conda-build
+  - cudnn=8.2
+  - cudatoolkit=11.2
+  - cudatoolkit-dev=11.2
+  - cupy
+  - dask
+  - dask-ml
+  - dask-labextension
+  - datashader
+  - featuretools
+  - gfortran_linux-64
+  - gh
+  - git
+  - gxx_linux-64
+  - h5py
+  - holoviews
+  - hvplot
+  - imbalanced-learn
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-lsp
+  - jupyterlab-nvdashboard
+  - lightgbm
+  - matplotlib
+  - nccl
+  - numba
+  - numpy
+  - optuna
+  - pandas
+  - panel
+  - pip
+  - pip:
+    - -r requirements.txt
+  - pyarrow
+  - python=3.8
+  - python-language-server
+  - pyviz_comms
+  - scikit-learn
+  - scipy
+  - shap
+  - tensorboard
+  - umap-learn
+  - wandb
+  - xarray
+  - xeus-python
+  - xgboost
