@@ -36,6 +36,36 @@ cd $MAIN/datasets/
 - We also provide all saved data under `$MAIN/saved_exp` and all plots under `$MAIN/plots`.
 
 ## Nonconvex Neural Network Generalization Experiments
+We train and test each experiments by running it on a single A100-80G version. 
+
+Now the main folder is `./nn/src`. Datasets will be automatically downloaded. 
+
+- Scafflix compared with baselines
+```
+cd $MAIN/
+
+python emnist_main_v2.py --flix --scafflix --fedavg --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 2048 --exp_no 0101 --alpha 0.1
+```
+
+You are free to choose different batch size, experiment name, and personalization factor alpha. 
+
+All other ablations can be regarded as some slightly modified version of above. E.g.,
+
+- Different alpha only
+```
+python emnist_main_scafflix_only.py --scafflix --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 2048 --exp_no 0401 --alpha 10e-4
+```
+
+- Different number of clients per round
+```
+python emnist_main_scafflix_only.py --scafflix --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 2048 --exp_no 0501 --alpha 0.3 --n_clients_per_flix_round 1
+```
+
+- Different alpha
+```
+python emnist_main_scafflix_only.py --scafflix --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 1 --exp_no 0501 --alpha 0.3
+```
+
 
 ## Citation
 ```
@@ -57,4 +87,4 @@ The intended purpose and licensing of Scafflix is solely for research use.
 The source code is licensed under Apache 2.0.
 
 ## Contact
-For more information please contact [Kai Yi](https://kaiyi.me/), [Laurent Condat](https://lcondat.github.io/).
+For code related questions, please please contact [Kai Yi](https://kaiyi.me/). For paper related questions, please contact [Kai Yi](https://kaiyi.me/) and [Laurent Condat](https://lcondat.github.io/).
