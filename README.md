@@ -81,10 +81,10 @@ Please refer to jupyter notebooks under `$MAIN/visualization` for more details.
 ## Citation
 ```
 @misc{scafflix,
-  author = {Kai Yi, Laurent Condat, Peter Richtarik},
+  author = {Kai, Yi and Laurent, Condat and Peter, Richt\'{a}rik},
   title = {Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning},
   year = {2023},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2305},
 }
 ```
 
