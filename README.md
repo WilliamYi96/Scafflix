@@ -98,4 +98,4 @@ The intended purpose and licensing of Scafflix is solely for research use.
 The source code is licensed under Apache 2.0.
 
 ## Contact
-For code related questions, please please contact [Kai Yi](https://kaiyi.me/). For paper related questions, please contact [Kai Yi](https://kaiyi.me/) and [Laurent Condat](https://lcondat.github.io/).
+For code related questions, please contact [Kai Yi](https://kaiyi.me/). For paper related questions, please contact [Kai Yi](https://kaiyi.me/) and [Laurent Condat](https://lcondat.github.io/).
