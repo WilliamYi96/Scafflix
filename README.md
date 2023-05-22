@@ -75,6 +75,9 @@ cd $MAIN/
 python shakespeare_main_v1.py --flix --scafflix --fedavg --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 2048 --exp_no 01101 --alpha 0.1
 ```
 
+### Generate Plots
+Please refer to jupyter notebooks under `$MAIN/visualization` for more details. 
+
 ## Citation
 ```
 @misc{scafflix,
