@@ -40,6 +40,8 @@ We train and test each experiments by running it on a single A100-80G version.
 
 Now the main folder is `./nn/src`. Datasets will be automatically downloaded. 
 
+### FEMNIST Dataset
+
 - Scafflix compared with baselines
 ```
 cd $MAIN/
@@ -66,6 +68,12 @@ python emnist_main_scafflix_only.py --scafflix --stat_every 10 --max_rounds 1000
 python emnist_main_scafflix_only.py --scafflix --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 1 --exp_no 0501 --alpha 0.3
 ```
 
+### Shakespeare Dataset
+```
+cd $MAIN/
+
+python shakespeare_main_v1.py --flix --scafflix --fedavg --stat_every 10 --max_rounds 1000 --flix_num_rounds 1000 --bs 2048 --exp_no 01101 --alpha 0.1
+```
 
 ## Citation
 ```
