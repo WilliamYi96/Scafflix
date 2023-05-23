@@ -84,7 +84,7 @@ Please refer to jupyter notebooks under `$MAIN/visualization` for more details.
   author = {Kai, Yi and Laurent, Condat and Peter, Richt\'{a}rik},
   title = {Explicit Personalization and Local Training: Double Communication Acceleration in Federated Learning},
   year = {2023},
-  journal={arXiv preprint arXiv:2305},
+  journal={arXiv preprint arXiv:2305.13170},
 }
 ```
 
